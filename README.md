@@ -1,12 +1,22 @@
-# Interactive-Casino
+# *Interactive Casino*  
+The *Interactive Casino* is a C programming project that simulates the thrill of a virtual casino environment. It features four classic casino games—Roulette, Blackjack, Slots, and Coin Flip, allowing users to place bets, test their luck, and manage their virtual balance. This project showcases modular programming, dynamic memory management, and random number generation in C.  
 
-As a team member of the Interactive Casino project, my primary responsibility was designing and implementing the Blackjack game. This involved me creating a logical structure for the game, ensuring a seamless user experience, and also adhering to the rules of the traditional Blackjack game.
-I started with the game mechanics, including the random card generation for both the player and the dealer, and implemented the comparison logic to determine the outcome of each round. The winning, losing, and tie scenarios were carefully coded to reflect the real-world dynamics of Blackjack. I also integrated a betting system that dynamically updates the player’s balance based on their performance in the game using pointer for the player balance.
-To enhance user engagement and ensure clarity, I added detailed instructions for the game and implemented input validation to handle invalid bets. My work also focused on balancing simplicity and functionality, which enabled users to enjoy an authentic Blackjack experience in a simple and risk-free environment.
-By coding the Blackjack module, I contributed to the overall modularity and functionality of the project, ensuring that it aligns with the goals of the Casino Game Simulator. My work highlights the strategic part of Blackjack while demonstrating the practical application of C programming concepts such as randomization, conditional statements, and functions. This module plays a vital role in offering users a comprehensive and enjoyable gaming experience.
+## *Project Features*  
+- *Roulette*: Bet on a number between 0 and 18. Win 18x the bet for correct guesses.  
+- *Blackjack*: Compete against the dealer to achieve a higher card value without exceeding 21.  
+- *Slots*: Spin three reels and win based on matching patterns, including a jackpot for all three matching.  
+- *Coin Flip*: Bet on heads or tails, and double your bet on a correct guess.  
 
-My contribution, Code Snipet: 
-
+## *Contribution*  
+### *Blackjack Game*  
+- As a team member of the Interactive Casino project, my primary responsibility was designing and implementing the Blackjack game. This involved me creating a logical structure for the game, ensuring a seamless user experience, and also adhering to the rules of the traditional Blackjack game.
+- I started with the game mechanics, including the random card generation for both the player and the dealer, and implemented the comparison logic to determine the outcome of each round. The winning, losing, and tie scenarios were carefully coded to reflect the real-world dynamics of Blackjack. I also integrated a betting system that dynamically updates the player’s balance based on their performance in the game using pointer for the player balance.
+- To enhance user engagement and ensure clarity, I added detailed instructions for the game and implemented input validation to handle invalid bets.
+- My work also focused on balancing simplicity and functionality, which enabled users to enjoy an authentic Blackjack experience in a simple and risk-free environment.
+- By coding the Blackjack module, I contributed to the overall modularity and functionality of the project, ensuring that it aligns with the goals of the Casino Game Simulator.
+- My work highlights the strategic part of Blackjack while demonstrating the practical application of C programming concepts such as randomization, conditional statements, and functions. This module plays a vital role in offering users a comprehensive and enjoyable gaming experience.
+  
+- Code Snippet: 
 
 ```
 void blackjack(int *balance)
@@ -52,7 +62,15 @@ void blackjack(int *balance)
     }
     
     show_bal(*balance);
-}    
+}
 ```
 
-- Pavan S
+## *Technologies Used*  
+- *Programming Language*: C  
+- *Libraries*:  
+  - <stdio.h>: Input and output functions  
+  - <stdlib.h>: Random number generation and memory management  
+  - <time.h>: Seeding the random number generator with system time  
+
+## *Acknowledgments*  
+Special thanks to my team members for their collaboration and to our advisor Mr. Sahabzada Betab Badar for his guidance throughout the project. 
