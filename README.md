@@ -8,7 +8,7 @@ By coding the Blackjack module, I contributed to the overall modularity and func
 My contribution, Code Snipet: 
 
 
-`void blackjack(int *balance)
+```void blackjack(int *balance)
 {
     int player_card, dealer_card, bet;
 
@@ -52,6 +52,6 @@ My contribution, Code Snipet:
     
     show_bal(*balance);
 }    
-`
+```
 
 - Pavan S
